@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.CheckQRCodeActivity"
+    android:gravity="center"
+    android:background="@color/colorBlue">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CODE NUMBER"
+        android:textSize="@dimen/size_50dp"
+        android:textStyle="italic"
+        android:textColor="@color/colorWhite"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtCodeNumber"
+        android:background="@drawable/border"
+        android:textSize="@dimen/text_size_20pt"
+        android:layout_marginRight="@dimen/size_50dp"
+        android:layout_marginLeft="@dimen/size_50dp"
+        android:layout_marginTop="@dimen/size_5dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginLeft="@dimen/size_50dp"
+        android:layout_marginRight="@dimen/size_50dp"
+        android:layout_marginTop="@dimen/size_5dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/qr_code"
+            android:background="@drawable/border"
+            android:id="@+id/btnQRCode"
+            android:layout_marginRight="@dimen/size_20dp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnConnect"
+            android:text="@string/save"
+            android:background="@drawable/border"/>
+    </LinearLayout>
+<!--    <LinearLayout-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:weightSum="2"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <TextView-->
+<!--            android:id="@+id/deivce"-->
+<!--            android:text="Number Devices"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            ></TextView>-->
+
+<!--  <EditText-->
+<!--      android:layout_marginLeft="@dimen/size_20dp"-->
+<!--      android:layout_width="@dimen/size_100dp"-->
+<!--      android:layout_height="40dp"-->
+<!--      android:background="@drawable/border"-->
+<!--      android:id="@+id/numberdevice"></EditText>-->
+
+<!--    </LinearLayout>-->
+
+</LinearLayout>

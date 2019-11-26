@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">IVNApplicationV4</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="mess_on">{ "type": "timmer", "id": 0, "relayID": 0, "rcn": 1, "ts": 0, "te": 0, "tc": 0, "ti": 0 }</string>
+    <string name="mess_off">{ "type": "timmer", "id": 0, "relayID": 0, "rcn": 1, "ts": 0, "te": 0, "tc": 0, "ti": 1 }</string>
+    <string name="mess_request">{"type": "wifi"}</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="room_name">Room Name</string>
+    <string name="_0_device">0 device</string>
+    <string name="device_name">Device Name</string>
+    <string name="time_to_off">Time to Off:</string>
+    <string name="time_to_on">Time to On:</string>
+    <string name="banner">Banner</string>
+    <string name="create_room">Create Room</string>
+    <string name="connect_local">Connect Local</string>
+    <string name="delete_device">Remove Device</string>
+    <string name="help">Help</string>
+    <string name="edit">Edit Device\'s Name</string>
+    <string name="timer_off">Timer Off:</string>
+    <string name="timer_on">Timer On:</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="group_name">Room\'s name</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+    <string name="nav_drawer_open">Open navigation drawer</string>
+    <string name="welcome_to_ivn_smart">Welcome to IVN Smart!</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_about">About</string>
+    <string name="menu_introduce">Introduce</string>
+    <string name="menu_programs">Programs</string>
+    <string name="reload_device">Reload Device</string>
+    <string name="remove_device">Remove Device</string>
+    <string name="ok">OK</string>
+    <string name="warning">WARNING!!!</string>
+    <string name="are_you_sure_you_want_to_exit">Are you sure you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="countdown">Countdown: </string>
+    <string name="edit_image">Edit Image: </string>
+    <string name="add_device">Add Device</string>
+    <string name="delete">Delete?</string>
+    <string name="qr_code">QR Code</string>
+    <string name="connect">Connect</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="connect_online">Connect Online</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="switch_device">Sign up CPU</string>
+    <string name="content">Content:</string>
+    <string name="edit_time">Edit time</string>
+    <string name="set_time">Set Time</string>
+    <string name="select_time">Select Time</string>
+    <string name="h">h</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+</resources>

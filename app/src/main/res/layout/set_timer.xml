@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:layout_gravity="center"
+    android:layout_marginLeft="@dimen/size_5dp"
+    android:layout_marginRight="@dimen/size_5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/tvTimer"
+            android:textSize="@dimen/text_size_13pt"
+            android:hint="@string/edit_time"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_13pt"
+            android:id="@+id/tvStateTimer"
+            android:layout_weight="0.5"
+            android:text="Off"
+            android:gravity="right"
+            android:textColor="@color/textColorOff"/>
+        <Switch
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:id="@+id/swStateTimer"
+            android:switchMinWidth="@dimen/size_50dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/size_20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/size_20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlue"
+            android:textSize="@dimen/text_size_12pt"
+            android:text="Loop:"/>
+
+        <TextView
+            android:id="@+id/tvLoopTimer"
+            android:textSize="@dimen/text_size_12pt"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Loop" />
+
+        <Spinner
+            android:id="@+id/spiLoop"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="@dimen/size_20dp"
+        android:layout_marginBottom="@dimen/size_10dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnOkTimer"
+            android:textColor="@color/colorWhite"
+            android:text="@string/ok"
+            android:background="@drawable/border_blue"
+            android:textSize="@dimen/text_size_13pt"
+            android:layout_marginRight="@dimen/size_20dp"
+            android:layout_marginLeft="@dimen/size_20dp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCancelTimer"
+            android:textColor="@color/colorWhite"
+            android:text="@string/cancel"
+            android:background="@drawable/border_blue"
+            android:textSize="@dimen/text_size_13pt"
+            android:layout_marginRight="@dimen/size_20dp"
+            android:layout_marginLeft="@dimen/size_20dp"/>
+    </LinearLayout>
+</LinearLayout>

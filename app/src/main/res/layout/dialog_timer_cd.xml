@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/border"
+    android:padding="@dimen/size_10dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:weightSum="6"
+        android:layout_gravity="center">
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/spnHour"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_10pt"
+            android:id="@+id/tvH"
+            android:text="0"/>
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/spnMin"/>
+        <TextView
+            android:id="@+id/tvM"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_10pt"
+            android:text="0"/>
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/spnSecond"/>
+        <TextView
+            android:id="@+id/tvS"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_10pt"
+            android:text="0"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/size_10dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_10pt"
+            android:id="@+id/tvStateTimerCd"
+            android:layout_weight="0.5"
+            android:text="Off"
+            android:gravity="right"
+            android:textColor="@color/textColorOff"/>
+        <Switch
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:id="@+id/swStateTimerCd"
+            android:switchMinWidth="@dimen/size_50dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/size_20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/size_10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnOkTimerCd"
+            android:text="@string/ok"
+            android:layout_marginRight="@dimen/size_5dp"
+            android:textSize="@dimen/text_size_10pt"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/border_blue"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCancelTimerCd"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size_10pt"
+            android:background="@drawable/border_blue"
+            android:text="@string/cancel"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

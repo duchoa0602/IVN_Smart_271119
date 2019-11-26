@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/size_10dp"
+    android:layout_marginTop="@dimen/size_10dp"
+    android:layout_marginRight="@dimen/size_10dp"
+    android:layout_marginBottom="@dimen/size_10dp"
+    android:background="@drawable/border"
+    >
+
+    <ImageView
+        android:layout_width="@dimen/size_150dp"
+        android:layout_height="@dimen/size_150dp"
+        android:id="@+id/imgRoom"
+        android:layout_gravity="left"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_home"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/size_20dp">
+        <TextView
+            android:layout_width="@dimen/size_150dp"
+            android:layout_height="@dimen/size_50dp"
+            android:id="@+id/tvRoomName"
+            android:text="@string/room_name" />
+        <TextView
+            android:layout_marginTop="@dimen/size_10dp"
+            android:layout_width="@dimen/size_150dp"
+            android:layout_height="@dimen/size_50dp"
+            android:id="@+id/tvRoomSize"
+            android:hint="@string/_0_device"
+            android:textSize="@dimen/text_size_15pt"/>
+    </LinearLayout>
+
+
+</LinearLayout>
